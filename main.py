@@ -17,6 +17,15 @@ cap = cv2.VideoCapture(0)
 cap.set(3, 640)
 cap.set(4, 480)
 
+# ================================================================
+# Project: Air-Mouse
+# Author: Arnav Pundir
+# Year: 2025
+# License: Custom Proprietary License - All Rights Reserved
+# Unauthorized use, copying, or distribution is strictly prohibited.
+# ================================================================
+
+
 # Mediapipe
 mp_hands = mp.solutions.hands
 hands = mp_hands.Hands(max_num_hands=1)
@@ -48,6 +57,14 @@ def fingers_up(hand_landmarks):
         fingers.append(1)
     else:
         fingers.append(0)
+# ================================================================
+# Project: Air-Mouse
+# Author: Arnav Pundir
+# Year: 2025
+# License: Custom Proprietary License - All Rights Reserved
+# Unauthorized use, copying, or distribution is strictly prohibited.
+# ================================================================
+
 
     # Other 4 fingers
     for id in range(1, 5):
@@ -115,7 +132,16 @@ while True:
                     pyautogui.scroll(50)
                 else:
                     pyautogui.scroll(-50)
+# ================================================================
+# Project: Air-Mouse
+# Author: Arnav Pundir
+# Year: 2025
+# License: Custom Proprietary License - All Rights Reserved
+# Unauthorized use, copying, or distribution is strictly prohibited.
+# ================================================================
 
+
+            
             # Draw hand landmarks
             mp_draw.draw_landmarks(img, hand_landmarks, mp_hands.HAND_CONNECTIONS)
 
