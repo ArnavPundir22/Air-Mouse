@@ -52,10 +52,6 @@ This project implements a **Virtual Mouse** system that allows users to control 
 4. Maps hand coordinates to screen resolution using interpolation.
 5. Executes mouse movements and actions based on gestures.
 
-## 📹 Demo
-
-![Virtual Mouse Demo](demo.gif)  
-*Hand gestures to move and click like a mouse!*
 
 ## 🧩 Requirements
 
@@ -66,7 +62,7 @@ This project implements a **Virtual Mouse** system that allows users to control 
 ## ✍️ Author
 
 **Arnav Pundir**  
-[GitHub](https://github.com/yourusername) • [LinkedIn](https://www.linkedin.com/in/yourprofile)
+[GitHub](https://github.com/ArnavPundir22) • [LinkedIn](https://www.linkedin.com/in/arnav-pundir12)
 
 ## 📄 License
 
